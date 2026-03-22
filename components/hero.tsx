@@ -52,7 +52,7 @@ export function Hero({
             {secondaryHref && secondaryLabel ? (
               <Link
                 href={secondaryHref}
-                className="inline-flex items-center justify-center border border-stone-200/70 px-7 py-3.5 text-[13px] uppercase tracking-[0.18em] text-stone-50 transition-colors duration-300 hover:bg-stone-50 hover:text-stone-900"
+                className="inline-flex items-center justify-center border border-stone-100 bg-stone-50 px-7 py-3.5 text-[13px] uppercase tracking-[0.18em] text-stone-900 transition-colors duration-300 hover:bg-transparent hover:text-stone-50"
               >
                 {secondaryLabel}
               </Link>

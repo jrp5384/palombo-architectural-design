@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div className="space-y-7">
             <div className="relative aspect-[4/5] overflow-hidden bg-stone-200">
               <Image
-                src="/images/projects/Desk 1.JPG"
+                src="/images/projects/House 4.JPG"
                 alt="Architect's desk with working materials and samples"
                 fill
                 className="object-cover"
@@ -83,7 +83,7 @@ export default function AboutPage() {
         <div className="mx-auto grid max-w-site gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:items-center lg:gap-20">
           <div className="relative aspect-[16/10] overflow-hidden bg-stone-200">
             <Image
-              src="/images/drawings/Drawing 8.JPG"
+              src="/images/drawings/Drawing 2.JPG"
               alt="Architectural drawing pinned for design review"
               fill
               className="object-cover"

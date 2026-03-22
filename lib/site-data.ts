@@ -78,7 +78,7 @@ export const projects: Project[] = [
     category: "Commercial",
     location: "Workplace Interior",
     year: "2024",
-    image: "/images/projects/Commercial 3.JPG",
+    image: "/images/projects/Commercial 1.JPG",
     alt: "Commercial interior designed with clean geometry",
     slug: "commercial-workplace",
     summary:
@@ -89,7 +89,7 @@ export const projects: Project[] = [
     category: "Renovation",
     location: "Private Home",
     year: "2023",
-    image: "/images/projects/Bathroom 3.JPG",
+    image: "/images/projects/Bathroom 2.JPG",
     alt: "Minimal bathroom suite with stone surfaces and refined detailing",
     slug: "refined-bathroom-suite",
     summary:
@@ -145,7 +145,7 @@ export const drawings: Drawing[] = [
   },
   {
     title: "Drawing Package Refinement",
-    image: "/images/drawings/Drawing 6.jpeg",
+    image: "/images/drawings/Drawing 11.jpg",
     alt: "Architectural working drawings arranged on a table",
   },
 ];
