@@ -4,13 +4,13 @@
 
 :root {
   --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
-  --font-body: "Manrope", "Helvetica Neue", Helvetica, sans-serif;
-  --color-background: #f7f5f1;
+  --font-body: "Avenir Next", "Helvetica Neue", Helvetica, sans-serif;
+  --color-background: #f6f3ed;
   --color-foreground: #181714;
-  --color-stone-50: #f7f5f1;
-  --color-stone-100: #f0ece4;
-  --color-stone-200: #e0dbd2;
-  --color-stone-300: #c8c0b4;
+  --color-stone-50: #f6f3ed;
+  --color-stone-100: #efe9de;
+  --color-stone-200: #ddd4c5;
+  --color-stone-300: #c6b9a7;
   --color-stone-500: #7d756a;
   --color-stone-700: #4a443d;
   --color-stone-900: #181714;
@@ -29,6 +29,7 @@ body {
   background: var(--color-background);
   color: var(--color-foreground);
   font-family: var(--font-body);
+  line-height: 1.6;
 }
 
 a {
@@ -42,4 +43,28 @@ img {
 
 ::selection {
   background: rgba(24, 23, 20, 0.12);
+}
+
+@layer components {
+  .section-space {
+    @apply py-24 sm:py-28 lg:py-32;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .fade-in {
+    animation: fade-in 900ms ease-out both;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

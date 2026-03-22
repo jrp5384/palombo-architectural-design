@@ -4,19 +4,19 @@ import { contactDetails, navigationLinks } from "@/lib/site-data";
 
 export function Footer() {
   return (
-    <footer className="border-t border-stone-200 bg-stone-100">
-      <div className="mx-auto grid max-w-site gap-12 px-6 py-14 sm:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr] lg:px-10">
+    <footer className="border-t border-stone-200/70 bg-stone-50">
+      <div className="mx-auto grid max-w-site gap-12 px-6 py-16 sm:grid-cols-2 lg:grid-cols-[1.7fr_1fr_1fr] lg:px-10 lg:py-20">
         <div>
-          <p className="font-serif text-2xl text-stone-900">
+          <p className="font-serif text-2xl text-stone-900 lg:text-3xl">
             Palombo Architectural Design
           </p>
-          <p className="mt-4 max-w-md text-sm leading-6 text-stone-700">
-            A refined architecture practice creating timeless residential and
-            commercial spaces with clarity, care, and enduring detail.
+          <p className="mt-5 max-w-md text-sm leading-7 text-stone-700">
+            Architecture shaped with restraint, careful listening, and a lasting
+            commitment to proportion, material, and lived experience.
           </p>
         </div>
         <div>
-          <h3 className="text-xs uppercase tracking-[0.24em] text-stone-500">
+          <h3 className="text-[11px] uppercase tracking-[0.24em] text-stone-500">
             Navigation
           </h3>
           <ul className="mt-4 space-y-3 text-sm text-stone-700">
@@ -33,7 +33,7 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <h3 className="text-xs uppercase tracking-[0.24em] text-stone-500">
+          <h3 className="text-[11px] uppercase tracking-[0.24em] text-stone-500">
             Contact
           </h3>
           <ul className="mt-4 space-y-3 text-sm text-stone-700">

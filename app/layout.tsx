@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: "%s | Palombo Architectural Design",
   },
   description:
-    "Palombo Architectural Design is a refined architecture studio focused on timeless residential and commercial work.",
+    "Palombo Architectural Design creates timeless residential and commercial architecture with a measured, detail-driven approach.",
 };
 
 export default function RootLayout({
